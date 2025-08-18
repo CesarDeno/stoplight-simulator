@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# Simulador de Semáforo en React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es un simulador de cruce peatonal de 4 lados creado con React y Material-UI. Permite visualizar semáforos sincronizados en ambos sentidos (Norte-Sur y Este-Oeste) con un contador de tiempo para cada fase.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- Semáforos sincronizados según dirección.
+- Contador visible en la esquina superior derecha.
+- Calles dibujadas con líneas amarillas simulando carriles.
+- Ciclo de fases: Verde → Amarillo → Verde sentido perpendicular.
+- Configurable duración de cada fase.
+
+## Scripts disponibles
+
+En el directorio del proyecto, puedes ejecutar:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Inicia la app en modo desarrollo.  
+Abre [http://localhost:3000](http://localhost:3000) para verla en el navegador.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+La página se recargará si haces cambios.  
+También verás errores de lint en la consola.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Genera la versión de producción en la carpeta `build`.  
+Optimiza y minifica el código para un despliegue rápido y eficiente.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm run deploy`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Si configuraste GitHub Pages, este script despliega automáticamente tu app.  
+Debe ejecutarse después de configurar `homepage` en `package.json` y `gh-pages` en tu proyecto.
 
-### `npm run eject`
+## Tecnologías
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- React  
+- TypeScript  
+- Material-UI (MUI)  
+- GitHub Pages (opcional para despliegue)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
