@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/stoplight-simulator/static/js/main.4e647514.js",
+    "static/js/453.2c1a0bc9.chunk.js": "/stoplight-simulator/static/js/453.2c1a0bc9.chunk.js",
+    "index.html": "/stoplight-simulator/index.html",
+    "main.4e647514.js.map": "/stoplight-simulator/static/js/main.4e647514.js.map",
+    "453.2c1a0bc9.chunk.js.map": "/stoplight-simulator/static/js/453.2c1a0bc9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.4e647514.js"
+  ]
+}
